@@ -6,16 +6,13 @@
 }
 
 body {
-  background: #111;
   color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
-/* Footer */
 footer {
   background: #000;
   width: 100%;
-  padding: 40px 80px;
 }
 
 footer .content .top {
@@ -26,7 +23,9 @@ footer .content .top {
   border-bottom: 1px solid #333;
   padding-bottom: 20px;
 }
-
+.content{
+	padding:30px 30px;
+}
 .logo_name {
   font-size: 2rem;
   font-weight: 600;
@@ -110,21 +109,3 @@ footer .content .top {
   color: #fff;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  footer {
-    padding: 30px 40px;
-  }
-
-  .link-boxes {
-    flex-direction: column;
-  }
-
-  .media-icons {
-    margin-top: 15px;
-  }
-
-  .bottom-details {
-    font-size: 0.8rem;
-  }
-}
