@@ -30,7 +30,11 @@ footer .content .top {
   font-size: 2rem;
   font-weight: 600;
 }
-
+.media-icons{
+	display:flex;
+	justify-content: center;
+  gap: 15px;
+}
 .media-icons a {
   color: #fff;
   font-size: 1.2rem;
